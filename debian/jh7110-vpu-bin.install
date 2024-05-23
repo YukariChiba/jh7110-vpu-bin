@@ -1,0 +1,6 @@
+#! /usr/bin/dh-exec
+
+libOMX_Core.so usr/lib/${DEB_HOST_MULTIARCH}/
+libsfdec.so usr/lib/${DEB_HOST_MULTIARCH}/
+libsfenc.so usr/lib/${DEB_HOST_MULTIARCH}/
+libsf-omx-il.so usr/lib/${DEB_HOST_MULTIARCH}/
